@@ -1,4 +1,4 @@
 discord.py==2.6.4
 python-dotenv==1.0.0
 yfinance==0.2.27
-apscheduler==3.10.6
+apscheduler==3.11.1
