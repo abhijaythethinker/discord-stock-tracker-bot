@@ -10,6 +10,7 @@ def get_percent_changes(ticker):
     
     data['Time-EST'] = data.index.strftime("%I:%M %p")
 
+    # calculate percent change
     data['% Change'] = (data['Close'] / data['Open']) * 100 - 100
     data = data.round(2)
 
