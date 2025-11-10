@@ -1,1 +1,1 @@
-python3 stockBot.py
+python stockBot.py
