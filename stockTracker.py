@@ -1,8 +1,8 @@
 import yfinance as yf
 
-def get_percent_changes():
+def get_percent_changes(ticker):
 
-    ticker = "EVMN"
+    # ticker
     data = yf.download(ticker, period="1d", interval="30m", auto_adjust=False, progress=False).tz_convert('America/New_York')
 
     if data.empty:
