@@ -36,7 +36,7 @@ scheduler.add_job(
     CronTrigger(
         day_of_week="mon-fri",
         hour="9-20",
-        minute="10,11,12,13,14,15,16,17,18,19,20"
+        minute="*"
     )
 )
 
