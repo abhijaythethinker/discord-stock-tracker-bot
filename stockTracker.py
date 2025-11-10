@@ -1,4 +1,5 @@
 import yfinance as yf
+
 def get_percent_changes():
 
     ticker = "EVMN"
@@ -16,5 +17,5 @@ def get_percent_changes():
 
     return latest
 
-result = get_percent_changes()
-print(result)
+# result = get_percent_changes()
+# print(result)
