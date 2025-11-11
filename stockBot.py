@@ -35,8 +35,8 @@ scheduler.add_job(
     send_message,
     CronTrigger(
         day_of_week="mon-fri",
-        hour="*",
-        minute="*"
+        hour="9-15",
+        minute="35"
     )
 )
 
